@@ -6,7 +6,16 @@
     <script src="register-sw.js" defer=""></script>
     <script src="bye_blocker.js" defer=""></script>
     <script src="getpage.js" defer=""></script>
-    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
       body {
         font-family: "Comfortaa";
         font-size: "25px";
@@ -75,22 +84,10 @@
         margin: 10px;
         color: white;
       }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
       body {
         font-family: Arial, Helvetica, Comfortaa sans-serif;
       }
-
-      .navbar {
+.navbar {
         overflow: hidden;
         background-color: #29304d;
       }
@@ -256,12 +253,19 @@
           <b>Games</b>
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
-          <a href="https://script.google.com/a/macros/gcisdstudents.net/s/AKfycbxO8jKpDOwFYpSGrGbReR4Mv2e1-6T4uHsWBphygjzyG8Qqpvij/exec?mid=ACjPJvF3RvJN6ufwCWpNNV7Par8IPo_9lbty1bO67Qvx2J8QH4lQgX-BZCHdug82MzvSQC5pYR9rmj_VC8TA3lvxG5elm5-BxJGA_RfS1UGToz7yegvUAvawzQNt8R9EAHoF3T_as6giOZ2e-5x05Q&amp;bc=transparent&amp;f=Helvetica%2C+Arial%2C+Verdana%2C+sans-serif&amp;tc=%23b5b5b5&amp;lc=%23f3f2f2">Paper.io2</a>
-          <a href="https://www.gafiradar.com">TBG95</a>
-          <a href="https://invisibility.lol">Intersteller</a>
-          <a href="radon.games">Radon Games</a>
-          <a href="https://kazwire.com/">Kazwire</a>
+        <div class="dropdown-content">    
+            <button class="button-3" onclick="getpage('Radon Games','https://www.radon.games/")">Radon Games</button>
+           </p>
+           <button class="button-3" onclick="getpage('Intersteller','https://invisibility.lol')">Intersteller</button>
+           <p><p>
+             <button class="button-3" onclick="getpage('Paper.io2','https://script.google.com/a/macros/gcisdstudents.net/s/AKfycbxO8jKpDOwFYpSGrGbReR4Mv2e1-6T4uHsWBphygjzyG8Qqpvij/exec?mid=ACjPJvF3RvJN6ufwCWpNNV7Par8IPo_9lbty1bO67Qvx2J8QH4lQgX-BZCHdug82MzvSQC5pYR9rmj_VC8TA3lvxG5elm5-BxJGA_RfS1UGToz7yegvUAvawzQNt8R9EAHoF3T_as6giOZ2e-5x05Q&amp;bc=transparent&amp;f=Helvetica%2C+Arial%2C+Verdana%2C+sans-serif&amp;tc=%23b5b5b5&amp;lc=%23f3f2f2')">Paper.io2</button>
+               </p><p>
+              <button class="button-3" onclick="getpage('Kazwire','https://kazwire.com/')">Kazwire</button>
+            </p>
+            <button class="button-3" onclick="getpage('TBG95','https://www.gafiradar.com')">TBG95</button>
+            </p><p>
+            <button class="button-3" onclick="getpage('FWGFS','https://fwgfs.vercel.app/')">FWGFS</button>
+            </p>
         </div>
       </div>
     </div>
@@ -291,7 +295,7 @@
         <font size="+2.5">
           <p align="center">
             <button class="button-3" role="button" onclick="func()">Launch ByeBlocker</button>
-            <button class="button-3" onclick="getpage('Nebula','https://www.nebulaproxy.io/')">Nebula</button>
+
           </p>
           <br>
           <br>
@@ -310,5 +314,14 @@
     <span style="float: right; cursor: pointer;">×</span>
     </div>
     </div>
+
+    <div class="footer">
+<a class="link underline" href="https://github.com/neealdon3/Eternal-proxy">Github</a>
+<a class="link underline" href="https://discord.gg/QGwumCE4">Discord</a>
+<a class="link underline" href="./terms.html">Terms</a>
+<a class="link underline" href="./privacy.html" style="margin-right: 14px;">Privacy</a>
+
+© NeeAldon3 2023 - <script>document.write(new Date().getFullYear())</script>
+</div>
   </body>
 </html>
