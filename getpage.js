@@ -2,7 +2,7 @@ function getpage(gname, glink)
 {
   document.cookie = "loadgamename="+gname+";path=/";
   document.cookie = "loadgamelink="+glink+";path=/";
-  window.location.replace("gamepage.html");
+  window.location.replace("page.html");
 }
 
 function getCookie(cname) {
@@ -21,7 +21,7 @@ function getCookie(cname) {
   return "";
 }
 
-function loadgame()
+function loadpage()
 {
 	let gamename = getCookie("loadgamename");
 	let gamelink = getCookie("loadgamelink");
