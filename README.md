@@ -72,8 +72,8 @@ Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for st
 
 ### Built With
 
-* [![HTML]](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)(https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [![Javascript]](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)(https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [![HTML](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [![Javascript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [![CSS](https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
