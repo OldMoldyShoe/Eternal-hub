@@ -142,7 +142,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - email@email_client.com
+Your Name - blade_immovably193@simplelogin.com
 
 Project Link: [https://github.com/neealdon3/Eternal-proxy](https://github.com/neealdon3/Eternal-proxy)
 
