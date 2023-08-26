@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]](https://eternalproxy.w3spaces.com/)
+[![Screenshot](https://github.com/neealdon3/Eternal-proxy/blob/master/Screenshot.jpeg)](https://eternalproxy.w3spaces.com/)
 
 Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for students who are bored at school.
 
