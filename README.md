@@ -73,9 +73,9 @@ Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for st
 ### Built With
 
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" height="40" width="40" alt="HTML">HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" width="40" alt="Javascript">Javascript</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="40" width="40" alt="CSS">CSS</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" height="40" width="40" alt="HTML"> HTML</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" height="40" width="40" alt="Javascript"> Javascript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" height="40" width="40" alt="CSS"> CSS</a></li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
