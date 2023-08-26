@@ -148,14 +148,3 @@ Project Link: [https://github.com/neealdon3/Eternal-proxy](https://github.com/ne
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
