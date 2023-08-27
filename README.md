@@ -70,6 +70,9 @@ https://neealdon3.github.io/Eternal-hub/
 <p>
 https://eternal-proxy.bladeimmovably1.repl.co/
 </p>
+<p>
+  https://eternal-hub.bladeimmovably1.repl.co/
+</p>
 
 
 
