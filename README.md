@@ -39,6 +39,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+       <li><a href="#deployment">Deployment</a></li>
       </ul>
     </li>
     <li><a href="#deployment">Deployment</a></li>
@@ -61,6 +62,10 @@ Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for st
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+### Links
+[https://neealdon3.github.io/Eternal-hub/](https://neealdon3.github.io/Eternal-hub/)
+[eternal-proxy.bladeimmovably1.repl.co](eternal-proxy.bladeimmovably1.repl.co)
 
 ### Built With
 <pre>
