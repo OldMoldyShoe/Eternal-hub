@@ -65,10 +65,10 @@ Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for st
 
 ### Links
 <p>
-[https://neealdon3.github.io/Eternal-hub/](https://neealdon3.github.io/Eternal-hub/)
+https://neealdon3.github.io/Eternal-hub/
 </p>
 <p>
-[eternal-proxy.bladeimmovably1.repl.co](eternal-proxy.bladeimmovably1.repl.co)
+eternal-proxy.bladeimmovably1.repl.co
 </p>
 
 
