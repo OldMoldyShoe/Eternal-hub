@@ -102,7 +102,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
+- [ ] about:blank cloaking
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
