@@ -100,9 +100,9 @@ To get a local copy up and running follow these simple example steps.
 ## Roadmap
 
 - [ ] Unblocker
-- [ ] about:blank cloaking(also hosted at [https://5l6gqq.csb.app/](https://5l6gqq.csb.app/)
+- [x] about:blank cloaking(also hosted at [https://5l6gqq.csb.app/](https://5l6gqq.csb.app/))
 
-See this [issue](https://github.com/neealdon3/Eternal-hub/issues) for a full list of proposed features.
+See this [issue](https://github.com/neealdon3/Eternal-hub/issues/1) for a full list of proposed features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
