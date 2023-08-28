@@ -65,6 +65,9 @@ Hello! My username/alias is NeeAldon3. This project Eternal Box, is a hub for st
 
 ### Links
 <p>
+https://neealdon3.github.io/Eternal-hub/
+</p>
+<p>
 https://eternal-proxy.bladeimmovably1.repl.co/
 </p>
 <p>
@@ -99,8 +102,8 @@ To get a local copy up and running follow these simple example steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] about:blank cloaking
-- [ ] Feature 2
+- [ ] Unblocker
+- [ ] about:blank cloaking(also hosted at [https://5l6gqq.csb.app/](https://5l6gqq.csb.app/)
 - [ ] Feature 3
     - [ ] Nested Feature
 
