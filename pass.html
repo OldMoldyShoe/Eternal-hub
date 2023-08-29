@@ -1,18 +1,25 @@
-      <script>
-
+<html>
+    <head>
+    <title>Eternal-Hub</title>
+    </head>
+       <script>
+        //password:0mgthisisthewierdistp@sswordinthew0rld
          var password = "0mgthisisthewierdistp@sswordinthew0rld";
          (function passcodeprotect() {
             var passcode = prompt("Enter PassCode");
-            while (passcode !== password) {
+            if (passcode !== password) {
                alert("Incorrect PassCode");
                return passcodeprotect();
             }
          }());
          alert('Welcome to Eternalhub!!');
 	      let e='[1, 2]'
-	 var way = promt("What way of embeding do you want? " + e)
+	 var way = prompt("What way of embeding do you want? " + e)
+		var html = 'container.innerHTML = '<iframe src="https://eternalhub.w3spaces.com/" width="100%" height="700"''
 	      if(way == '1') {
 		container.innerHTML = '<iframe src="https://eternalhub.w3spaces.com/" width="100%" height="700"'
-	      }
+	      } else if (way == '2' {
+          container.innerHTML = '<embed type="text/html" src="./index.html" width="100%" height="700">'
+          }
 		 </script>
-<embed type="text/html" src="./index.html" width="100%" height="700">
+</html>
