@@ -1,0 +1,13 @@
+      <script>
+
+         var password = "0mgthisisthewierdistp@sswordinthew0rld";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+               alert("Incorrect PassCode");
+               return passcodeprotect();
+            }
+         }());
+         alert('Welcome to Eternalhub!!');
+		 
+      </script>
