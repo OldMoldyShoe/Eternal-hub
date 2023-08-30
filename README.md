@@ -99,8 +99,9 @@ To get a local copy up and running follow these simple example steps.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Unblocker
 - [x] about:blank cloaking(also hosted at [https://5l6gqq.csb.app/](https://5l6gqq.csb.app/))
+- [x] Password-Protection(for when you panic)
+- [ ] Unblocker
 
 See this [issue](https://github.com/neealdon3/Eternal-hub/issues/1) for a full list of proposed features.
 
