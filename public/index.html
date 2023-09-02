@@ -3,10 +3,11 @@
   <head>
     <script src="js/bye_blocker.js" defer=""></script>
     <script src="js/getpage.js" defer=""></script>
-	<script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
     <script src="js/search.js" defer></script>
-	<script src="js/register-sw.js" defer></script>
+    <script src="js/register-sw.js" defer></script>
+    <script src="js/index.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <style>
+    <style>
       body {
         font-family: "Comfortaa";
         font-size: "25px";
@@ -85,10 +86,12 @@
         margin: 10px;
         color: white;
       }
+
       body {
         font-family: Arial, Helvetica, Comfortaa sans-serif;
       }
-.navbar {
+
+      .navbar {
         overflow: hidden;
         background-color: #29304d;
       }
@@ -224,61 +227,57 @@
         margin: 0;
       }
 
+      #uv-error {
+        color: #ff6666 !important;
+        white-space: pre-wrap;
+      }
 
+      #uv-error-code {
+        font-size: 12px;
+        color: #fff;
+        font-family: "Courier New", Courier, monospace;
+      }
 
+      #uv-register-sw {
+        color: white;
+        background: #555555;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        padding: 16px 20px;
+        line-height: 16px;
+        display: none;
+      }
 
+      #uv-register-sw:active {
+        background: #333333;
+      }
 
+      #uv-register-sw.show {
+        display: block;
+      }
 
-#uv-error {
-  color: #ff6666 !important;
-  white-space: pre-wrap;
-}
+      #uv-address {
+        background: none;
+        font-family: inherit;
+        padding: 0px 17px;
+        height: 48px;
+        border: 1px solid rgb(255, 255, 255, 0.2);
+        color: var(--text-color);
+        border-radius: 3px;
+        outline: none;
+        width: 350px;
+        margin-top: 5px;
+        border-radius: 50px;
+        color: #fff;
+        transition: border-radius 0.1s;
+      }
 
-#uv-error-code {
-  font-size: 12px;
-  color: #fff;
-  font-family: "Courier New", Courier, monospace;
-}
-
-#uv-register-sw {
-  color: white;
-  background: #555555;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 6px;
-  padding: 16px 20px;
-  line-height: 16px;
-  display: none;
-}
-
-#uv-register-sw:active {
-  background: #333333;
-}
-
-#uv-register-sw.show {
-  display: block;
-}
-#uv-address {
-  background: none;
-  font-family: inherit;
-  padding: 0px 17px;
-  height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
-  color: var(--text-color);
-  border-radius: 3px;
-  outline: none;
-  width: 350px;
-  margin-top: 5px;
-  border-radius: 50px;
-  color: #fff;
-  transition: border-radius 0.1s;
-}
-
-#uv-address:focus {
-  border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
-}
+      #uv-address:focus {
+        border: 1px solid rgba(253, 253, 253, 0.514);
+        border-radius: 6px;
+      }
     </style>
   </head>
   <body>
@@ -293,29 +292,40 @@
         <div class="dropdown-content">
           <button class="button-3" onclick="getpage('','https://historicalanime.org/')">Holy Unblocker</button>
           <p>
-          <button class="button-3" onclick="getpage('','https://www.quizlet.gq/')">Rammerhead</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://greatswordpublic.tlochsta.net/')">Great Sword</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://ultraiolet-node.samirfadul.repl.co')">Ultraviolet</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://ludicrous.icu/')">Ludicrous</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://womginx.arph.org/')">Womginx</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://usemetallic.com/')">Mettalic</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://terbium-46q.pages.dev/')">Terbium</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://nebulaproxy.io/')">Nebula</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://eclipse.parrotdev.repl.co/')">Eclipse</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://velocity.radon.games/')">Velocity</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://www.learn.gq/')">Utopia</button>
-          </p><p>
-          <button class="button-3" onclick="getpage('','https://mathisthebest.xyz/')">Vortex</button>
+            <button class="button-3" onclick="getpage('','https://www.quizlet.gq/')">Rammerhead</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://greatswordpublic.tlochsta.net/')">Great Sword</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://ultraiolet-node.samirfadul.repl.co')">Ultraviolet</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://ludicrous.icu/')">Ludicrous</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://womginx.arph.org/')">Womginx</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://usemetallic.com/')">Mettalic</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://terbium-46q.pages.dev/')">Terbium</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://nebulaproxy.io/')">Nebula</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://eclipse.parrotdev.repl.co/')">Eclipse</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://velocity.radon.games/')">Velocity</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://www.learn.gq/')">Utopia</button>
+          </p>
+          <p>
+            <button class="button-3" onclick="getpage('','https://mathisthebest.xyz/')">Vortex</button>
         </div>
       </div>
       <div class="dropdown">
@@ -323,17 +333,19 @@
           <b>Games</b>
           <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">    
-            <button class="button-3" onclick="getpage('','https://www.radon.games/')">Radon Games</button>
-           </p>
-           <button class="button-3" onclick="getpage('Intersteller','https://invisibility.lol')">Intersteller</button>
-           <p><p>
-              <button class="button-3" onclick="getpage('Kazwire','https://kazwire.com/')">Kazwire</button>
-            </p>
-            <button class="button-3" onclick="getpage('TBG95','https://www.gafiradar.com')">TBG95</button>
-            </p><p>
+        <div class="dropdown-content">
+          <button class="button-3" onclick="getpage('','https://www.radon.games/')">Radon Games</button>
+          </p>
+          <button class="button-3" onclick="getpage('Intersteller','https://invisibility.lol')">Intersteller</button>
+          <p>
+          <p>
+            <button class="button-3" onclick="getpage('Kazwire','https://kazwire.com/')">Kazwire</button>
+          </p>
+          <button class="button-3" onclick="getpage('TBG95','https://www.gafiradar.com')">TBG95</button>
+          </p>
+          <p>
             <button class="button-3" onclick="getpage('FWGFS','https://fwgfs.vercel.app/')">FWGFS</button>
-            </p>
+          </p>
         </div>
       </div>
     </div>
@@ -357,30 +369,26 @@
           </font>
           <br>
         </span>
-		<form id="uv-form" class="flex-center">
-      <input
-        id="uv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
-      <input id="uv-address" type="text" placeholder="Search the web freely" />
-    </form>
-    <div class="desc left-margin">
-      <p id="uv-error"></p>
-      <pre id="uv-error-code"></pre>
-    </div>
-          <p align="center">
-            <button class="button-3" role="button" onclick="func()">Launch ByeBlocker</button>
-          </p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <p></p>
+        <form id="uv-form" class="flex-center">
+          <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
+          <input id="uv-address" type="text" placeholder="Search the web freely" />
+        </form>
+        <div class="desc left-margin">
+          <p id="uv-error"></p>
+          <pre id="uv-error-code"></pre>
+        </div>
+        <p align="center">
+          <button class="button-3" role="button" onclick="func()">Launch ByeBlocker</button>
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p></p>
         </font>
       </div>
       <font size="+2.5"></font>
@@ -389,14 +397,13 @@
     <span style="float: right; cursor: pointer;">×</span>
     </div>
     </div>
-
     <div class="footer">
-<a class="link underline" href="https://github.com/Eternal-Network/Eternal-proxy">Github</a>
-<a class="link underline" href="https://discord.gg/QGwumCE4">Discord</a>
-<a class="link underline" href="./terms.html">Terms</a>
-<a class="link underline" href="./privacy.html" style="margin-right: 14px;">Privacy</a>
-
-© NeeAldon3 2023 - <script>document.write(new Date().getFullYear())</script>
-</div>
+      <a class="link underline" href="https://github.com/Eternal-Network/Eternal-proxy">Github</a>
+      <a class="link underline" href="https://discord.gg/QGwumCE4">Discord</a>
+      <a class="link underline" href="./terms.html">Terms</a>
+      <a class="link underline" href="./privacy.html" style="margin-right: 14px;">Privacy</a> © NeeAldon3 2023 - <script>
+        document.write(new Date().getFullYear())
+      </script>
+    </div>
   </body>
 </html>
