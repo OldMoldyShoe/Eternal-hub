@@ -360,17 +360,6 @@
     <title>Eternal Proxy</title>
     <div class="container">
       <div>
-        <script>
-          async function go() {
-            var input = document.getElementById('url-target');
-            if (input.value) {
-              await registerSW();
-              window.location.href = __uv$config.prefix + __uv$config.encodeUrl(input.value);
-            } else {
-              alert('Please provide a link. It does not require https://.');
-            }
-          }
-        </script>
         <div class="flex-center desc">
           <h1>Math is cool, or not.</h1>
         </div>
