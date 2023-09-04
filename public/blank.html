@@ -418,7 +418,10 @@
             iframe.style.margin = "0";
             iframe.referrerpolicy = "no-referrer";
             iframe.allow = "fullscreen";
-            iframe.src = url.value;
+            $("button").click(function () {
+    var target = $(this).attr("data-target");
+	$.find(target).hide();
+});
             win.document.body.appendChild(iframe);
           };
         </script>
