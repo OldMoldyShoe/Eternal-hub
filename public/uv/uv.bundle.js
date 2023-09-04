@@ -18633,19 +18633,16 @@
 				return Object.assign(dest, src);
 			}
 
-			function deepAssign(dest, src) {
-				for (const key in src) {
-					if (hasOwnProperty.call(src, key)) {
-						if (isObject(dest[key])) {
-							deepAssign(dest[key], copy(src[key]));
-						} else {
-							dest[key] = copy(src[key]);
-						}
-					}
-				}
-
-				return dest;
-			}
+			function merge(dest, src) {
+    for (let key in src) {
+        if (!src.hasOwnProperty(key)) continue;
+        if (dest.hasOwnProperty(key) && isObject(dest[key])) {
+            merge(dest[key], src[key]);
+        } else {
+            dest[key] = src[key];
+        }
+    }
+}
 
 			function append(a, b) {
 				if (typeof b === 'string' && /^\s*\|/.test(b)) {
